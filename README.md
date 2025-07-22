@@ -25,20 +25,20 @@ sitepackage/<br>
 ├── Classes/<br>
 │ ├── Middleware/<br>
 │ │ └── ScssAutoCompileMiddleware.php<br>
-│ |── Service/<br>
-│ | └── ScssCompiler.php<br>
+│ ├── Service/<br>
+│ │ └── ScssCompiler.php<br>
 │<br>
 ├── Configuration/<br>
 │ ├── RequestMiddlewares.php<br>
-│ |── TypoScript/<br>
-│ | └── setup.typoscript<br>
+│ ├── TypoScript/<br>
+│ │ └── setup.typoscript<br>
 │<br>
 └── Resources/<br>
 ├── Public/<br>
-│ |── Css/<br>
-│ | └── theme.css (compiled)<br>
-| |── Scss/<br>
-| | └── theme.scss (source)<br>
+│ ├── Css/<br>
+│ │ └── theme.css (compiled)<br>
+│ ├── Scss/<br>
+│ │ └── theme.scss (source)<br>
 
 ## How it works
 In Development: TYPO3 recompiles SCSS when theme.scss changes.
