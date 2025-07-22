@@ -20,26 +20,26 @@ Add to Configuration/TypoScript/setup.typoscript:
 page.includeCSS.site = EXT:sitepackage/Resources/Public/Css/theme.css
 
 ## 5. Folder structure
-sitepackage/
-│
-├── Classes/
-│   ├── Middleware/
-│   │   └── ScssAutoCompileMiddleware.php
-│   └── Service/
-│       └── ScssCompiler.php
-│
-├── Configuration/
-│   ├── RequestMiddlewares.php
-│   └── TypoScript/
-│       └── setup.typoscript
-│
-└── Resources/
-    ├── Private/
-    │   └── Scss/
-    │       └── theme.scss
-    └── Public/
-        └── Css/
-            └── theme.css (compiled)
+sitepackage/<br>
+│<br>
+├── Classes/<br>
+│   ├── Middleware/<br>
+│   │   └── ScssAutoCompileMiddleware.php<br>
+│   └── Service/<br>
+│       └── ScssCompiler.php<br>
+│<br>
+├── Configuration/<br>
+│   ├── RequestMiddlewares.php<br>
+│   └── TypoScript/<br>
+│       └── setup.typoscript<br>
+│<br>
+└── Resources/<br>
+    ├── Private/<br>
+    │   └── Scss/<br>
+    │       └── theme.scss<br>
+    └── Public/<br>
+        └── Css/<br>
+            └── theme.css (compiled)<br>
 
 ## How it works
 In Development: TYPO3 recompiles SCSS when theme.scss changes.
